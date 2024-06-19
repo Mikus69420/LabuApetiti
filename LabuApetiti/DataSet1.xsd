@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Produkti" msdata:Locale="lv-LV" msprop:Generator_RowClassName="ProduktiRow" msprop:Generator_RowEvHandlerName="ProduktiRowChangeEventHandler" msprop:Generator_RowDeletedName="ProduktiRowDeleted" msprop:Generator_RowDeletingName="ProduktiRowDeleting" msprop:Generator_RowEvArgName="ProduktiRowChangeEvent" msprop:Generator_TablePropName="Produkti" msprop:Generator_RowChangedName="ProduktiRowChanged" msprop:Generator_UserTableName="Produkti" msprop:Generator_RowChangingName="ProduktiRowChanging" msprop:Generator_TableClassName="ProduktiDataTable" msprop:Generator_TableVarName="tableProdukti">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Nosaukums" msprop:Generator_UserColumnName="Nosaukums" msprop:Generator_ColumnPropNameInTable="NosaukumsColumn" msprop:Generator_ColumnPropNameInRow="Nosaukums" msprop:Generator_ColumnVarNameInTable="columnNosaukums" type="xs:string" minOccurs="0" />
+              <xs:element name="Piezimes" msdata:Caption="Piezīmes" msprop:Generator_UserColumnName="Piezimes" msprop:Generator_ColumnPropNameInTable="PiezimesColumn" msprop:Generator_ColumnPropNameInRow="Piezimes" msprop:Generator_ColumnVarNameInTable="columnPiezimes" type="xs:string" minOccurs="0" />
+              <xs:element name="PiegadatajsId" msprop:Generator_UserColumnName="PiegadatajsId" msprop:Generator_ColumnPropNameInTable="PiegadatajsIdColumn" msprop:Generator_ColumnPropNameInRow="PiegadatajsId" msprop:Generator_ColumnVarNameInTable="columnPiegadatajsId" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Piegadataji" msdata:Locale="lv-LV" msprop:Generator_RowClassName="PiegadatajiRow" msprop:Generator_RowEvHandlerName="PiegadatajiRowChangeEventHandler" msprop:Generator_RowDeletedName="PiegadatajiRowDeleted" msprop:Generator_RowDeletingName="PiegadatajiRowDeleting" msprop:Generator_RowEvArgName="PiegadatajiRowChangeEvent" msprop:Generator_TablePropName="Piegadataji" msprop:Generator_RowChangedName="PiegadatajiRowChanged" msprop:Generator_UserTableName="Piegadataji" msprop:Generator_RowChangingName="PiegadatajiRowChanging" msprop:Generator_TableClassName="PiegadatajiDataTable" msprop:Generator_TableVarName="tablePiegadataji">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Nosaukums" msprop:Generator_UserColumnName="Nosaukums" msprop:Generator_ColumnPropNameInTable="NosaukumsColumn" msprop:Generator_ColumnPropNameInRow="Nosaukums" msprop:Generator_ColumnVarNameInTable="columnNosaukums" type="xs:string" minOccurs="0" />
+              <xs:element name="Adrese" msprop:Generator_UserColumnName="Adrese" msprop:Generator_ColumnPropNameInTable="AdreseColumn" msprop:Generator_ColumnPropNameInRow="Adrese" msprop:Generator_ColumnVarNameInTable="columnAdrese" type="xs:string" minOccurs="0" />
+              <xs:element name="Talrunis" msprop:Generator_UserColumnName="Talrunis" msprop:Generator_ColumnPropNameInTable="TalrunisColumn" msprop:Generator_ColumnPropNameInRow="Talrunis" msprop:Generator_ColumnVarNameInTable="columnTalrunis" type="xs:string" minOccurs="0" />
+              <xs:element name="E-pasts" msprop:Generator_UserColumnName="E-pasts" msprop:Generator_ColumnPropNameInTable="_E_pastsColumn" msprop:Generator_ColumnPropNameInRow="_E_pasts" msprop:Generator_ColumnVarNameInTable="_columnE_pasts" type="xs:string" minOccurs="0" />
+              <xs:element name="Kontaktpersona" msprop:Generator_UserColumnName="Kontaktpersona" msprop:Generator_ColumnPropNameInTable="KontaktpersonaColumn" msprop:Generator_ColumnPropNameInRow="Kontaktpersona" msprop:Generator_ColumnVarNameInTable="columnKontaktpersona" type="xs:string" minOccurs="0" />
+              <xs:element name="Piezimes" msprop:Generator_UserColumnName="Piezimes" msprop:Generator_ColumnPropNameInTable="PiezimesColumn" msprop:Generator_ColumnPropNameInRow="Piezimes" msprop:Generator_ColumnVarNameInTable="columnPiezimes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Iepirkumi" msdata:Locale="lv-LV" msprop:Generator_RowClassName="IepirkumiRow" msprop:Generator_RowEvHandlerName="IepirkumiRowChangeEventHandler" msprop:Generator_RowDeletedName="IepirkumiRowDeleted" msprop:Generator_RowDeletingName="IepirkumiRowDeleting" msprop:Generator_RowEvArgName="IepirkumiRowChangeEvent" msprop:Generator_TablePropName="Iepirkumi" msprop:Generator_RowChangedName="IepirkumiRowChanged" msprop:Generator_UserTableName="Iepirkumi" msprop:Generator_RowChangingName="IepirkumiRowChanging" msprop:Generator_TableClassName="IepirkumiDataTable" msprop:Generator_TableVarName="tableIepirkumi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Datums" msprop:Generator_UserColumnName="Datums" msprop:Generator_ColumnPropNameInTable="DatumsColumn" msprop:Generator_ColumnPropNameInRow="Datums" msprop:Generator_ColumnVarNameInTable="columnDatums" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ProduktsId" msprop:Generator_UserColumnName="ProduktsId" msprop:Generator_ColumnPropNameInTable="ProduktsIdColumn" msprop:Generator_ColumnPropNameInRow="ProduktsId" msprop:Generator_ColumnVarNameInTable="columnProduktsId" type="xs:int" minOccurs="0" />
+              <xs:element name="Daudzums" msprop:Generator_UserColumnName="Daudzums" msprop:Generator_ColumnPropNameInTable="DaudzumsColumn" msprop:Generator_ColumnPropNameInRow="Daudzums" msprop:Generator_ColumnVarNameInTable="columnDaudzums" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="Cena" msprop:Generator_UserColumnName="Cena" msprop:Generator_ColumnPropNameInTable="CenaColumn" msprop:Generator_ColumnPropNameInRow="Cena" msprop:Generator_ColumnVarNameInTable="columnCena" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="Piezīmes" msprop:Generator_UserColumnName="Piezīmes" msprop:Generator_ColumnPropNameInTable="PiezīmesColumn" msprop:Generator_ColumnPropNameInRow="Piezīmes" msprop:Generator_ColumnVarNameInTable="columnPiezīmes" type="xs:string" minOccurs="0" />
+              <xs:element name="Summa" msprop:Generator_ColumnPropNameInRow="Summa" msprop:Generator_ColumnPropNameInTable="SummaColumn" msprop:Generator_ColumnVarNameInTable="columnSumma" msprop:Generator_UserColumnName="Summa" type="xs:decimal" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Produkti" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Piegadataji_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Piegadataji" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Iepirkumi_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Iepirkumi" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Piegadataji_Produkti" msdata:parent="Piegadataji" msdata:child="Produkti" msdata:parentkey="Id" msdata:childkey="PiegadatajsId" msprop:Generator_UserParentTable="Piegadataji" msprop:Generator_UserChildTable="Produkti" msprop:Generator_RelationVarName="relationPiegadataji_Produkti" msprop:Generator_ChildPropName="GetProduktiRows" msprop:Generator_ParentPropName="PiegadatajiRow" msprop:Generator_UserRelationName="Piegadataji_Produkti" />
+      <msdata:Relationship name="Produkti_Iepirkumi" msdata:parent="Produkti" msdata:child="Iepirkumi" msdata:parentkey="Id" msdata:childkey="ProduktsId" msprop:Generator_UserParentTable="Produkti" msprop:Generator_UserChildTable="Iepirkumi" msprop:Generator_RelationVarName="relationProdukti_Iepirkumi" msprop:Generator_ChildPropName="GetIepirkumiRows" msprop:Generator_ParentPropName="ProduktiRow" msprop:Generator_UserRelationName="Produkti_Iepirkumi" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

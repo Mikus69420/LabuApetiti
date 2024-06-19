@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSet1 xmlns="http://tempuri.org/DataSet1.xsd">
+  <Produkti>
+    <Id>1</Id>
+    <Nosaukums>Produkts1</Nosaukums>
+    <Piezimes>Garšīgs produkts</Piezimes>
+    <PiegadatajsId>2</PiegadatajsId>
+  </Produkti>
+  <Produkti>
+    <Id>2</Id>
+    <Nosaukums>Produkts2</Nosaukums>
+    <PiegadatajsId>0</PiegadatajsId>
+  </Produkti>
+  <Produkti>
+    <Id>3</Id>
+    <Nosaukums>Mandarini</Nosaukums>
+    <Piezimes>Mandarins</Piezimes>
+    <PiegadatajsId>1</PiegadatajsId>
+  </Produkti>
+  <Produkti>
+    <Id>4</Id>
+    <Nosaukums>Aboli</Nosaukums>
+    <Piezimes>Sarkani</Piezimes>
+    <PiegadatajsId>2</PiegadatajsId>
+  </Produkti>
+  <Piegadataji>
+    <Id>0</Id>
+    <Nosaukums>Piegadatajs A</Nosaukums>
+    <Adrese>Adrese A</Adrese>
+    <Talrunis>222222222</Talrunis>
+    <E-pasts>tests@tests.lv</E-pasts>
+    <Kontaktpersona>Jānis Bērziņš</Kontaktpersona>
+  </Piegadataji>
+  <Piegadataji>
+    <Id>1</Id>
+    <Nosaukums>Piegadatajs B</Nosaukums>
+    <Adrese>Adrese B</Adrese>
+    <Talrunis>223333333</Talrunis>
+    <E-pasts>tests@tests.lv</E-pasts>
+    <Kontaktpersona>Anna Kociņa</Kontaktpersona>
+  </Piegadataji>
+  <Piegadataji>
+    <Id>2</Id>
+    <Nosaukums>Piegadatajs C</Nosaukums>
+    <Adrese>Adrese C</Adrese>
+    <Talrunis>224444444</Talrunis>
+    <E-pasts>tests@tests.lv</E-pasts>
+    <Kontaktpersona>Juris Krūmiņš</Kontaktpersona>
+  </Piegadataji>
+  <Iepirkumi>
+    <Id>0</Id>
+    <Datums>2012-12-12T00:00:00+02:00</Datums>
+    <ProduktsId>1</ProduktsId>
+    <Daudzums>20</Daudzums>
+    <Cena>55.34</Cena>
+    <Summa>1106.80</Summa>
+  </Iepirkumi>
+  <Iepirkumi>
+    <Id>3</Id>
+    <Datums>2024-01-03T00:00:00+02:00</Datums>
+    <ProduktsId>2</ProduktsId>
+    <Daudzums>2</Daudzums>
+    <Cena>13.09</Cena>
+    <Summa>26.18</Summa>
+  </Iepirkumi>
+  <Iepirkumi>
+    <Id>4</Id>
+    <Datums>2024-01-04T00:00:00+02:00</Datums>
+    <ProduktsId>3</ProduktsId>
+    <Daudzums>481</Daudzums>
+    <Cena>0.97</Cena>
+    <Summa>466.57</Summa>
+  </Iepirkumi>
+  <Iepirkumi>
+    <Id>5</Id>
+    <Datums>2024-01-12T00:00:00+02:00</Datums>
+    <ProduktsId>4</ProduktsId>
+    <Daudzums>853</Daudzums>
+    <Cena>0.62</Cena>
+    <Summa>528.86</Summa>
+  </Iepirkumi>
+</DataSet1>
